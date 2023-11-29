@@ -1,0 +1,14 @@
+name: city
+version: 0.1
+author: Guigui006
+main: fr.omeskystudio.city.Main
+
+commands:
+  city:
+    permission: city.use
+    description: Commands principale
+    usage: /city [create | delete | setspawn | spawn | leave]
+    aliases: ["c"]
+  cityreload:
+    description: Reload plugin
+    permission: city.admin
